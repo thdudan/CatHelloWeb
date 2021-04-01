@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+header {
+	text-align: center;	
+}
+	
+.catsay {
+	text-align:center;
+	margin-top: 1%;	
+	width:30%;
+	background-color: gray;
+}	
+
+img {
+	margin-top:1%;
+	width: 20%;
+}
+
+main {
+	position:relative;
+	text-align: center;
+	margin-top: 1%;
+}
+
+button {
+	cursor:pointer;
+	margin:10px;
+  width:200px;
+  height:60px;
+  font-size:20px;
+}
+
+.ex0{
+	
+	margin-right: 20%;
+	color: purple;
+	float: right;
+	height: 15px;
+	width: 30px;
+}
+ex0:hover {color: gray;}
+
+.ex1{
+	
+	margin-right: 20%;
+	color: purple;
+	float: right;
+	height: 15px;
+	width: 30px;
+}
+ex1:hover {color: gray;}
+
+.ex2{
+	margin-top: 3%;
+	color: purple;
+	float: right;
+	height: 15px;
+	width: 30px;
+}
+ex2:hover {color: gray;}
+
+
+footer{
+	text-align: center;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="index.css" />
+<title>Meow</title>
+<script type="text/javascript">
+function hello(){
+	alert("에옹");
+}
+function offlight(color) {
+	document.bgColor = color;
+}
+function onlight(color) {
+	document.bgColor = color;
+}
+</script>
+</head>
+<body>
+	<header>
+		<div id="catsay"></div>
+		<div><img alt="" src="free-icon-cat-2798000.png"></div>
+	</header>
+	<main>
+		<div id="ex0"><button type="button" value="hello" onclick="hello()">인사하기</button></div>
+		<div id="ex1"><button type="button" value="black" onclick="offlight(this.value)">불끄기</button></div>
+		<div id="ex2"><button type="button" value="white" onclick="onlight(this.value)">불켜기</button></div>
+		
+	</main>
+<footer>
+	<div id="iconixar" style="color: lightgray;">
+		아이콘 제작자 <a href="" title="iconixar" style="color: lightgray;">iconixar</a>
+		from <a href="https://www.flaticon.com/kr/" title="Flaticon"
+			style="color: lightgray;">www.flaticon.com</a>
+	</div>
+</footer>
+</body>
+</html>
